@@ -1,2 +1,53 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import "~bootstrap/scss/bootstrap";
+
+body {
+  background-color: black;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  width: 419px;
+  height: 98px;
+  left: 511px;
+  top: 570px;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+}
+
+#mainContainer {
+  background-color: #474747;
+  color: white;
+  margin: auto;
+  text-align: center;
+  height: 735px;
+  width: 712px;
+  left: 364px;
+  top: 164px;
+  border-radius: 20px;
+  position: absolute;
+  border-radius: 20px;
+}
+
+img {
+  width: 591px;
+  height: 110px;
+  left: 425px;
+  top: 267px;
+  margin-bottom: 75px;
+  margin-top: 50px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+}

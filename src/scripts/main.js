@@ -1,14 +1,13 @@
-// INSTRUCTORS: DO NOT directly edit this sandbox. Fork it, and place the fork inside the cohort folder.
-
-import 'bootstrap'; // import bootstrap elements and js
+import 'bootstrap';
 import '../styles/main.scss';
-import jokeData from './helpers/jokeData';
+import domBuilder from './components/domBuilder';
+import getAJokeButton from './components/getAJokeButton';
+import domEvents from './events/domEvents';
 
 const init = () => {
-  document.querySelector('#app').innerHTML = `
-  `;
-
-  jokeData().then(console.warn);
+  domBuilder();
+  domEvents();
+  getAJokeButton();
 };
 
 init();
